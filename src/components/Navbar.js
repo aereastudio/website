@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 
+import LogoIcon from '../../assets/logo.svg';
+
 const Navbar = () => {
   return (
-    <nav className="flex w-100 fixed z-1 items-center justify-between pv4-ns pv4 bg-white">
-      <a className="ml5-ns ml3">
-        a
+    <nav className="flex w-100 fixed z-1 items-center justify-between pv2-ns pv2 bg-white">
+      <a className="ml5-ns ml3" href="/">
+        <LogoIcon width="50px" />
       </a>
       <div className="mr5-ns mr3">
         <Link
