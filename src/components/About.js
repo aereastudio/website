@@ -1,15 +1,15 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import AboutImage1 from '../images/nosotros_1.jpg';
 import AboutImage2 from '../images/nosotros_2.jpg';
 import AboutImage3 from '../images/nosotros_3.jpg';
 
 const About = () => {
   return (
-    <div id="about" className="pv4">
+    <div id="about" className="pv6">
       <h2 className="f2 ph6-ns b font-4 mb4 mb3-ns ph0-ns ph4">Equipo Aérea</h2>
-      <div className="flex-ns items-center-ns ph4 ph6-ns pb4">
+      <div className="flex-ns items-center-ns ph4 ph6-ns pb5">
         <div className="w-50-ns mb4 mb0-ns">
-          <img src={AboutImage1} />
+          <img src={AboutImage1} alt="" />
         </div>
         <div className="w-50-ns ml5-ns f6">
           <p className="mb2 lh-copy"><span className="b font-2">Somos un estudio creativo emergente</span> ubicado en Santiago de Chile y fundado de manera virtual en medio de la pandemia del 2020.</p>
@@ -25,7 +25,7 @@ const About = () => {
       <div className="flex-ns ph3 ph6-ns pv5" style={{ background: 'whiteSmoke' }}>
         <div className="flex-ns w-50-ns mb5 mb0-ns">
           <div className="w-30-ns tc tl-ns">
-            <img src={AboutImage2} />
+            <img src={AboutImage2} alt="" />
           </div>
           <div className="w-70-ns ph4 mv4 mh2 mv0-ns mh2-ns">
             <h3 className="font-3 tc tl-ns">Felipe Sepúlveda Pastén</h3>
@@ -35,7 +35,7 @@ const About = () => {
         </div>
         <div className="flex-ns w-50-ns">
           <div className="w-30-ns tc tl-ns">
-            <img src={AboutImage3} />
+            <img src={AboutImage3} alt="" />
           </div>
           <div className="w-70-ns ph4 mv4 mh2 mv0-ns mh2-ns">
             <h3 className="font-3 tc tl-ns">Macarena Rivera Neumann</h3>

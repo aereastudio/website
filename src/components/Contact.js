@@ -6,8 +6,8 @@ const Contact = () => {
   return (
     <div id="contact" className="flex-ns relative items-center-ns w-100-ns vh-100-ns ph4 ph6-ns">
       <div className="absolute z-0" style={{ zIndex: '-1' }}>
-        <img src={ContactImage} className="dn db-ns" />
-        <img src={ProjectImage2} className="db dn-ns ml4 mt5 mb6" />
+        <img src={ContactImage} className="dn db-ns" alt="" />
+        <img src={ProjectImage2} className="db dn-ns ml4 mt5 mb6" alt="" />
       </div>
       <div className="w-40-ns z-1 pt6 pt0-ns">
         <h1 className="f1 f-headline-ns lh-solid-ns font-4">Escríbenos</h1>

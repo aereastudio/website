@@ -5,7 +5,7 @@ import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 import Social from "../components/Social";
 import Navbar from "../components/Navbar";
-import SEO from "../components/Seo";
+import Seo from "../components/Seo";
 
 // styles
 const pageStyles = {}
@@ -15,7 +15,7 @@ const pageStyles = {}
 const IndexPage = () => {
   return (
     <main className="relative" style={pageStyles}>
-      <SEO title="Aérea Studio" />
+      <Seo title="Aérea Studio" />
       <Navbar />
       <Hero />
       <About />
