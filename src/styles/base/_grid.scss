@@ -1,0 +1,15 @@
+.grid-projects-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+}
+
+@include mediaQuerySM {
+  .grid-projects-items {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 2rem;
+  }
+}
