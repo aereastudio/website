@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Aerea",
+    title: "Aérea Studio",
+    description: "",
+    author: "@aerea",
   },
   plugins: [
     "gatsby-plugin-sass",

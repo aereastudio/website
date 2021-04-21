@@ -6,7 +6,7 @@ import AboutImage3 from '../images/nosotros_3.jpg';
 const About = () => {
   return (
     <div id="about" className="pv4">
-      <h2 className="f2 ph6-ns b font-4 mb4 mb3-ns ph0-ns ph4">Equipo Aerea</h2>
+      <h2 className="f2 ph6-ns b font-4 mb4 mb3-ns ph0-ns ph4">Equipo Aérea</h2>
       <div className="flex-ns items-center-ns ph4 ph6-ns pb4">
         <div className="w-50-ns mb4 mb0-ns">
           <img src={AboutImage1} />

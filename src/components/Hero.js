@@ -10,7 +10,7 @@ const Hero = () => {
         <img src={ProjectImage2} className="db dn-ns ml4 mt5" />
       </div>
       <div className="w-40-ns z-1 pt6 pt0-ns">
-        <h1 className="f1 f-headline-ns lh-solid-ns font-4">Aerea Studio</h1>
+        <h1 className="f1 f-headline-ns lh-solid-ns font-4">Aérea Studio</h1>
         <p className="lh-copy mt5">Un espacio de convergencia entre el diseño y la fotografía que da vida a nuevos proyectos. Exploramos y experimentamos con diferentes técnicas para lograr el resultado que necesitas.</p>
       </div>
     </div>
