@@ -8,22 +8,22 @@ const Social = () => {
   return (
     <div className="fixed flex db-ns bottom-0 right-0 ph5 pb3">
       <div className="pv3-ns ph3">
-        <a className="pointer dim">
+        <a className="pointer dim" href="https://www.facebook.com/aereastudio">
           <FacebookIcon />
         </a>
       </div>
       <div className="pv3-ns ph3">
-        <a className="pointer dim">
+        <a className="pointer dim" href="https://www.instagram.com/aereastudio/">
           <InstagramIcon />
         </a>
       </div>
       <div className="pv3-ns ph3">
-        <a className="pointer dim">
+        <a className="pointer dim" href="https://www.pinterest.cl/aerea_studio/_created/">
           <PinterestIcon />
         </a>
       </div>
       <div className="pv3-ns ph3">
-        <a className="pointer dim">
+        <a className="pointer dim" href="https://www.behance.net/aereastudio">
           <BehanceIcon />
         </a>
       </div>
