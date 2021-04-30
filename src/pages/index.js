@@ -15,12 +15,12 @@ const pageStyles = {}
 // markup
 const IndexPage = () => {
   return (
-    <main className="relative" style={pageStyles}>
+    <main className="relative wrapper" style={pageStyles}>
       <Seo title="Aérea Studio" />
       <Navbar />
       <Hero />
       <About />
-      <div style={{ background: 'whiteSmoke' }}>
+      <div className="team-container" style={{ background: 'whiteSmoke' }}>
         <Team />
       </div>
       <Projects />

@@ -4,14 +4,14 @@ import ProjectImage2 from '../images/project_2.jpg';
 
 const Hero = () => {
   return (
-    <div className="flex relative items-center w-80 vh-100 center">
-      <div className="absolute w-100" style={{ zIndex: '-1' }}>
-        <img src={HeroImage} className="w-90 fr dn db-ns" alt="" />
+    <div className="centered-container / flex items-center w-100 vh-100">
+      <div className="margin-container / absolute right-0" style={{ zIndex: '-1' }}>
+        <img src={HeroImage} className="dn db-ns" alt="" />
         <img src={ProjectImage2} className="db dn-ns" alt="" />
       </div>
-      <div className="w-30">
+      <div className="w-30-ns w-100">
         <h1 className="f1 f-headline-ns lh-solid-ns font-4">Aérea Studio</h1>
-        <p className="lh-copy mt5">Un espacio de convergencia entre el diseño y la fotografía que da vida a nuevos proyectos. Exploramos y experimentamos con diferentes técnicas para lograr el resultado que necesitas.</p>
+        <p className="f6 lh-copy mt5">Un espacio de convergencia entre el diseño y la fotografía que da vida a nuevos proyectos. Exploramos y experimentamos con diferentes técnicas para lograr el resultado que necesitas.</p>
       </div>
     </div>
   );
