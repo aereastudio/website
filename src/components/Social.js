@@ -6,7 +6,7 @@ import BehanceIcon from '../../assets/behance.svg';
 
 const Social = () => {
   return (
-    <div className="fixed flex db-ns bottom-0 right-0 ph5 pb3">
+    <div className="fixed flex db-ns bottom-0 right-0 w-10 tc mb4">
       <div className="pv3-ns ph3">
         <a className="pointer dim" href="https://www.facebook.com/aereastudio">
           <FacebookIcon />
