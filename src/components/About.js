@@ -3,7 +3,7 @@ import AboutImage1 from '../images/nosotros_1.jpg';
 
 const About = () => {
   return (
-    <div id="about" className="centered-container pt6">
+    <div id="about" className="centered-container pt5">
       <div className="w-90 fr">
         <h2 className="f2 b font-4 mb4 mb3-ns">Equipo Aérea</h2>
         <div className="flex-ns items-center-ns pb5">

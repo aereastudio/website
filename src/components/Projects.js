@@ -8,8 +8,8 @@ import ProjectImage5 from '../images/project_5.jpg';
 
 const Projects = () => {
   return (
-    <div id="projects" className="centered-container">
-      <div className="grid-projects-items pv6">
+    <div id="projects" className="flex items-center centered-container vh-100-ns pv5-ns pv0">
+      <div className="grid-projects-items">
         <div>
           <img src={ProjectImage5} alt="" className="w-100" />
           <h3 className="font-3 mt4">La Presumida Sour</h3>

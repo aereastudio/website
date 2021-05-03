@@ -16,7 +16,7 @@ const Navbar = () => {
               className="f7 f6-ns font-2 ttu mr5-ns mr3 pointer dim"
               to="about"
               smooth={true}
-              offset={-100}
+              offset={-40}
               duration={500}
             >
               Equipo Aérea
@@ -25,7 +25,7 @@ const Navbar = () => {
               className="f7 f6-ns font-2 ttu mr5-ns mr3 pointer dim"
               to="projects"
               smooth={true}
-              offset={-100}
+              offset={-30}
               duration={500}
             >
               Portafolio
@@ -34,7 +34,7 @@ const Navbar = () => {
               className="f7 f6-ns font-2 ttu pointer dim"
               to="contact"
               smooth={true}
-              offset={-1}
+              offset={-30}
               duration={500}
             >
               Contacto
