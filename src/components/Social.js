@@ -31,7 +31,7 @@ const Social = () => {
           </div>
         </div>
       </div>
-      <div className="fixed flex bottom-1 justify-between w-100 ph5">
+      <div className="fixed dn-ns flex bottom-1 justify-between w-100 ph5">
           <a className="pointer dim" href="https://www.facebook.com/aereastudio">
             <FacebookIcon />
           </a>
