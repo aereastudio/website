@@ -4,7 +4,7 @@ import ProjectImage2 from '../images/project_2.jpg';
 
 const Contact = () => {
   return (
-    <div className="centered-container / flex items-center w-100 vh-100">
+    <div id="contact" className="centered-container / flex items-center w-100 vh-100">
       <div className="margin-container / absolute right-0" style={{ zIndex: '-1' }}>
         <img src={ContactImage}  className="dn db-ns" alt="" />
         <img src={ProjectImage2} className="db dn-ns" alt="" />
