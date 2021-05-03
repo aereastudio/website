@@ -5,7 +5,7 @@ import ProjectImage2 from '../images/project_2.jpg';
 const Hero = () => {
   return (
     <div className="centered-container / flex items-center w-100 vh-100">
-      <div className="margin-container / absolute right-0" style={{ zIndex: '-1' }}>
+      <div className="margin-container hero-img / absolute right-0" style={{ zIndex: '-1' }}>
         <img src={HeroImage} className="dn db-ns" alt="" />
         <img src={ProjectImage2} className="db dn-ns" alt="" />
       </div>
