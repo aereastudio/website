@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroImage from '../images/home-11.jpg';
+import HeroImage from '../images/foto-home.jpg';
 import ProjectImage2 from '../images/project_2.jpg';
 
 const Hero = () => {
@@ -11,7 +11,7 @@ const Hero = () => {
       </div>
       <div className="w-30-ns w-100">
         <h1 className="f1 f-headline-ns lh-solid-ns font-4">Aérea Studio</h1>
-        <p className="f6 lh-copy mt5">Un espacio de convergencia entre el diseño y la fotografía que da vida a nuevos proyectos. Exploramos y experimentamos con diferentes técnicas para lograr el resultado que necesitas.</p>
+        <p className="f6 lh-copy mt3">Un espacio de convergencia entre el diseño y la fotografía que da vida a nuevos proyectos. Exploramos y experimentamos con diferentes técnicas para lograr el resultado que necesitas.</p>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import React from 'react';
 
-import AboutImage2 from '../images/nosotros_2.jpg';
-import AboutImage3 from '../images/nosotros_3.jpg';
+import AboutImage2 from '../images/felipe.jpg';
+import AboutImage3 from '../images/maca.jpg';
 
 const Team = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutImage1 from '../images/nosotros_1.jpg';
+import AboutImage1 from '../images/foto-felipe-maca.jpg';
 
 const About = () => {
   return (
@@ -13,7 +13,7 @@ const About = () => {
           <div className="w-50-ns ml5-ns f6">
             <p className="mb2 lh-copy"><span className="b font-2">Somos un estudio creativo emergente</span> ubicado en Santiago de Chile y fundado de manera virtual en medio de la pandemia del 2020.</p>
             <p className="mb2 lh-copy">Utilizamos las herramientas del diseño gráfico y la fotografía para construir piezas gráficas visualmente cautivadoras.</p>
-            <p className="mb2 lh-copy">Debido a las complicaciones de la pandemia, desarrollamos una metodología de trabajo remoto para el desarrollo de nuestros proyectos.</p>
+            <p className="mb2 lh-copy"> Debido a las complicaciones de la pandemia, desarrollamos una metodología de trabajo remoto para el desarrollo de nuestros proyectos.</p>
             <p className="mb2 lh-copy"><span className="b font-2">Exploramos y experimentamos con diversos lenguajes visuales</span> para obtener los mejores resultados.</p>
             <div>
               <p className="mb2 mb0-ns">Nuestras áreas de trabajo:</p>
