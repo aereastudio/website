@@ -16,7 +16,7 @@ const pageStyles = {}
 const IndexPage = () => {
   return (
     <main className="relative wrapper" style={pageStyles}>
-      <Seo title="Aérea Studio" />
+      <Seo lang="es" title="Aérea Studio" />
       <Navbar />
       <Hero />
       <About />
